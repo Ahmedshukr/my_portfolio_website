@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/theback1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h4>Software Engineer | RNPO Engineer</h4>
+                <h1>Hi, I am <span>Ahmed Muhumed</span></h1>
+                <p>This is my official portfolio website. With a blend of <br> creativity and technical 
+                    expertise, my portfolio showcases <br> captivating designs and innovative solutions 
+                    <br> that bring ideas to life.</p>
+            </div>
+            <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100028566697726"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/AhmedMu91439101"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/axmedm.maxamed/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ahmed-muhumed"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Ahmedshukr"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/DSC_5049.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="p-first">I am a passionate and skilled Full Stack Software Engineer with a diverse range of expertise. 
+                        With a strong background in Odoo development, I excel in both front-end and back-end 
+                        technologies, including HTML, CSS, JavaScript, Python, Django, Node.js, React, and the 
+                        Odoo Framework.</p>
+                        
+                        <p>I take pride in crafting elegant and user-friendly interfaces using HTML, CSS, and 
+                            JavaScript, and I am constantly expanding my knowledge to stay up to date with the 
+                            latest front-end technologies. On the back-end side, I am well-versed in Python 
+                            and Django, utilizing these technologies to build robust and secure server-side applications. </p>
+                        
+                        <p>Prior to my software engineering career, I spent two years working as a Radio 
+                        Network Planning and Optimization Engineer. During this time, I developed a strong 
+                        expertise in planning and optimization tools such as Atoll, Genex Assistant, 
+                        TEMS Investigation, and Actix Analyzer. I honed my skills in analyzing network 
+                        performance, identifying optimization opportunities, and implementing strategies 
+                        to enhance network quality and efficiency.</p>
+                        
+                        <p>I am deeply passionate about technology and its potential to drive innovation. 
+                        I am constantly seeking new challenges and opportunities to expand my knowledge 
+                        and skill set. With a strong foundation in software engineering and network 
+                        optimization, I am confident in my ability to tackle complex projects and deliver 
+                        outstanding results.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Odoo Development</span><br>Designing and customizing Odoo modules</li>
+                                <li><span>Web Development</span><br>Web app development</li>
+                                <li><span>App Development</span><br>Building Android Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Jan 2023 - Current</span><br>Odoo Developer</li>
+                                <li><span>May 2021 - Jan 2023</span><br>Radio Network Planning and Optimization Engineer</li>
+                                <li><span>Oct 2015 - Oct 2018</span><br>Physics Teacher</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 - 2023</span><br>Full Stack Software Engineer
+                                    <br>African Leadership Xcelerator - ALX</li>
+                                <li><span>2018 - 2020</span><br>MSc. in Communication engineering
+                                    <br>Bahir Dar University</li>
+                                <li><span>2015 - 2018</span><br>BSc. in Telecommunication Engineering
+                                    <br>Gollis University</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Harnessing the power of cutting-edge technologies and my expertise 
+                        as a Full Stack Software Engineer, I am dedicated to revolutionizing 
+                        web development. With a meticulous focus on creating captivating user 
+                        experiences, I craft visually stunning websites that seamlessly blend 
+                        creativity and functionality. By leveraging the versatility of HTML, 
+                        CSS, JavaScript, Python, and Django, I deliver dynamic and responsive 
+                        solutions that exceed expectations. With a keen eye for detail and a 
+                        passion for innovation.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-snowflake"></i>
+                    <!-- <i class="fa-brands fa-uncharted"></i> -->
+                    <h2>Odoo Development</h2>
+                    <p>Unlocking the full potential of businesses, my expertise in Odoo 
+                        development propels organizations towards unparalleled efficiency and 
+                        growth. With a deep understanding of the Odoo framework and its 
+                        expansive capabilities, I create bespoke solutions that streamline 
+                        processes, optimize workflows, and enhance productivity. Through 
+                        meticulous customization and seamless integration, I empower 
+                        businesses to harness the power of Odoo and propel their operations 
+                        to new heights.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>In the ever-evolving digital landscape, I specialize in crafting 
+                        innovative and user-centric mobile applications that leave a lasting 
+                        impact. Leveraging my expertise in technologies like React Native, I 
+                        create intuitive and feature-rich apps that seamlessly run across 
+                        multiple platforms. By focusing on stunning designs, smooth 
+                        functionality, and exceptional user experiences, I deliver 
+                        transformative mobile solutions that elevate businesses, engage 
+                        users, and drive success in the competitive app market.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------- Portfolio  -------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Immersing users in a seamless and delightful shopping experience, an Online 
+                            Shopping App stands as a testament to my commitment to innovation and 
+                            user-centric design. With an intuitive interface and robust functionalities, 
+                            I have crafted a platform that effortlessly connects customers with their 
+                            desired products, simplifies transactions, and fosters long-lasting brand 
+                            loyalty. </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Smart EMS App</h3>
+                        <p>Empowering educational institutions with a comprehensive and intelligent 
+                            management solution, my Smart Education Management System App revolutionizes 
+                            the way schools and universities operate. By seamlessly integrating features 
+                            like attendance tracking, grade management, and communication tools.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Shah (Somali Game) App</h3>
+                        <p>Embarking on a journey into Somali tradition and strategy, Shah, a game I have 
+                            developed, combines the allure of ancient gameplay with modern accessibility. 
+                            Shah immerses players in a world of strategic moves, capturing opponents' pieces, and 
+                            outmaneuvering rivals, all within a captivating Somali-themed setting.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- -----------Contacts--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>ahmedshukr@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>(+252) 905350293</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100028566697726"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/AhmedMu91439101"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/axmedm.maxamed/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ahmed-muhumed"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Ahmedshukr"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Ahmed.</p>
+        </div>
+    </div>
+
+
+
+
+    <script> 
+        var tablinks = document.getElementsByClassName("tab-links"); 
+        var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-130px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbybtfagut_52vxW3zT_XbvKjQyX1GfuUx7mkc0Hh_65l1Id4FDQVw3ff-YQu1cJy58p/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
