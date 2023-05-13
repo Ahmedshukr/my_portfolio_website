@@ -357,6 +357,8 @@ nav .fas{
     }
     .header-text p{
         font-size: 14px;
+        width: 50%;
+        margin-left: 0;
     }
     .header-text p br{
         display: none;
